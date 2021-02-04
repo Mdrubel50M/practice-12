@@ -1,0 +1,810 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+*{
+	margin:0;
+	padding: 0;
+}
+/*header-section start*/
+#header-top{
+background-color:#00a651;
+color:#ffffff;
+padding-top:20px;
+padding-bottom:20px;	
+
+}
+#heder-left{
+ float:left;
+}
+#logo img{
+width: 100%;
+height: 100%;
+}
+#logo-text h1{
+	font-size:30px;
+	font-family:poppins;
+	font-weight:700;
+	line-height:80px;
+	margin-left: -5px;
+}
+
+#header-right{
+float:right;
+}
+#header-right .nav-item a{
+color:#ffff;
+padding:0 10px;
+font-size: 16px;
+text-transform: uppercase;
+line-height: 80px;
+}
+#header-right .nav-item a:hover{
+	text-decoration: underline 4px;
+}
+/*header-section END*/
+/******CSS for slider--section*******/
+.slider-section-top{
+position: relative;
+width: 100%;
+height: 100%;
+}
+.carousel-item::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: .5;
+}
+.carousel-caption{
+	padding-bottom:120px;
+}
+.carousel-caption h1{
+color:#fff !important;
+font-size: 60px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.h3-responsive{
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 600;
+}
+.carousel-caption button{
+	border:none;
+	padding:8px 50px;
+	padding-top:;
+	margin-left:10px;
+	border-radius: 40px;
+	text-transform: uppercase;
+	background-color:#00a651;
+	margin-bottom: 30px;
+	font-weight: 700;
+	overflow: hidden;
+
+}
+.carousel-caption p{
+	padding-bottom: 30px;
+	padding-top:10px;
+	padding-right:40px;
+	padding-left: 40px;
+}
+/******END__CSS for slider--section******/
+/******CSS for Faculties section*******/
+/******LEFT--section*******/
+/******section-facults-start*******/
+#row-section-2{
+margin-top:20px;
+margin-bottom: 30px;
+padding-top:20px;
+padding-bottom: 20px;
+border-top:1px solid red;
+border-bottom:1px solid red; 
+}
+#faculties-col-1{
+border-right:1px solid red;
+margin-bottom:50px;
+}
+.col-2{
+padding-left:20px;
+}
+.faculties-section{
+padding-top: 110px;	
+}
+#section-facults{
+	padding-top: 120px;
+	padding-bottom: 50px;
+}
+.faculties-heding h2{
+	text-align: center;
+	font-size:70px;
+	font-family: poppins;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+#facul-icon-3{
+border:2px solid #192a56;
+border-radius:100%;
+padding-top:10px;
+padding-left:10px;
+padding-right:10px;
+padding-bottom:10px;
+
+}
+
+.facul-icon i{
+background-color:#192a56;
+border-radius:100%;	
+padding-top:30px;
+padding-bottom: 30px;
+padding-left:29px;
+padding-right:29px;
+font-size:30px;
+color:#ffff;
+}
+#facul-text h3{
+	line-height:20px;
+	font-weight: 700;
+	font-size: 20px;
+}
+#facul-text p{
+	line-height: 15px;
+}
+#faculties-item{
+	padding-top:20px;
+	padding-bottom:30px;
+}
+#facul-text button{
+border:none;
+padding-top:1px;
+padding-bottom:1px;
+padding-left: 20px;
+padding-right:20px;
+border-radius:20px;
+letter-spacing:1px;
+background-color: #fa8231;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 0px;
+transition: .6s;
+margin:0 !important;
+}
+#facul-text button:hover{
+	letter-spacing: 2px;
+}
+/******section-facults-END*******/
+/**All-faculties button***/
+#faculti-btn button a{
+	color:#fff;
+	text-decoration: none;
+}
+#faculti-btn button{
+background-color:#00a651; 
+padding:10px 20px;	
+border-radius: 20px;
+border:none;
+margin-top:30px;
+margin-bottom:80px;
+letter-spacing: 1px;
+transition:.6s;
+}
+#faculti-btn button:hover{
+background-color:#fa8231; 
+letter-spacing:-1px;
+}
+#admition{
+border: 2px solid #00a651;
+padding-bottom:20px;
+}
+.admi-icon i{
+padding-left:15px;
+}
+
+/**All-faculties button__END***/
+/*---latest news of faculties section-01-left---*/  
+
+/******--row-01--****/
+#NOTICE-BORD-top{
+border:1px solid #00a651; 
+
+}
+#latest-text01{
+margin-bottom:30px;
+}
+#latest-text01 h2{
+text-align: center;
+background-color:#00a651; 
+font-family: poppins;
+font-weight: 600px;
+color:#fff;
+text-transform: uppercase;
+padding:5px 0;
+font-size: 30px;
+}
+#latest-text01 img{
+margin:10px 0;
+}
+#latest-text01 h5 ,#latest-text h4{
+font-style: italic;
+font-family: poppins;
+font-weight: 500;
+font-size: 14px;
+}
+#latest-text01 button{
+border:none;
+padding-top:-1px;
+padding-bottom:1px;
+padding-left: 20px;
+padding-right:20px;
+border-radius:20px;
+background-color: #fa8231;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 0px;
+transition: .6s;
+
+}
+#latest-text01 button a{
+color:#ffff;
+text-decoration: none;
+letter-spacing:2px;
+}
+/******--row-01--END---****/
+/******--row-02---****/
+#latest-list{
+margin:10px 0;	
+}
+#latest-list img{
+width: 100%;
+padding:none;
+margin:none !important;
+}
+#latest-text{
+margin-left: -15px;
+}
+#latest-text h2{
+font-family: poppins;
+font-weight: 400;
+font-size:14px;
+text-transform:uppercase;
+letter-spacing:0px;
+}
+#latest-text button{
+border:none;
+padding-top:-1px;
+padding-bottom:1px;
+padding-right:20px;
+border-radius:20px;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 0px;
+transition: .6s;
+font-weight: 700;
+background-color: transparent;	
+letter-spacing:1px;
+}
+#latest-text button:hover{
+background-color: transparent;
+background-color:#fa8231;	
+letter-spacing:-1px;
+}
+#latest-text button a{
+text-decoration: none;
+color:#fa8231;
+padding-left:10px;
+}
+#latest-text button a:hover{
+color:#ffff;
+}
+
+/******--row-02--END---****/
+/**notice-bord***headline*****/
+.Not-text{
+text-align: center;
+background-color:#00a651; 
+font-family: poppins;
+font-weight: 600px;
+color:#fff;
+text-transform: uppercase;
+padding:5px 0;
+font-size: 30px;
+margin-bottom:30px;
+}
+#date{
+background-color:#130f40;
+padding-left:20px;
+list-style: none;
+margin-top:4px;
+}
+#date li h4{
+	color:#fff;
+	padding-top:8px;
+}
+#date li h1{
+	font-size: 50px;
+	font-weight: 700;
+	line-height:20px; 
+	padding-bottom:12px;
+	color:#fff;
+	padding-left:25px;
+	padding-top:5px;
+
+}
+/**--previous button--*/
+#previous-button {
+border:none;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 700;
+background-color: transparent;	
+letter-spacing:1px;
+padding-bottom:2px;
+}
+#previous-button a{
+	text-decoration: none;
+	color:#000;
+
+}
+/**--previous button--**/
+/******END---LEFT--section*******/
+/*************************************END*********************/
+/******RIGHT--section--start*******/
+/***convocation-item***/
+.Convocation-img img{
+width:100%;
+}
+#Convocation {
+	
+	margin-bottom: 30px;
+}
+#Convocation i{
+font-size:30px;
+color:#fff;
+}
+.Convocation h2{
+font-size:18px;
+}
+.Convocation-top{
+background-color:#00a651;
+}
+#Convocation h3{
+color:#fff;
+}
+/***END-convocation-item***/
+/***admition-item***/
+#result ,#quick-item ,#acadamic-c{
+border:1px solid #000;
+margin-bottom: 40px;
+padding-bottom: 8px;
+}
+#admition h3 ,#acadamic-c h3{
+background-color:#00a651; 
+padding:5px 0;
+font-size: 30px;
+}
+#admition i{
+	font-size: 30px;
+	line-height: 50px;
+}
+#admition h4{
+	margin-left:15px;
+	font-size: 16px;
+	line-height: 50px;
+}
+#admition button{
+	font-size:14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color:  #fa8231;
+	border:none;
+	padding-top:1px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-bottom: 2px;
+	margin:0 auto;
+	display: flex;
+}
+/***END-admition-item***/
+/***results-item***/
+#result h3{
+background-color:#00a651;
+margin-bottom:70px;
+}
+#result button{
+margin-bottom: 40px;
+font-size:14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color:  #fa8231;
+	border:none;
+	padding-top:1px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-bottom: 2px;
+	margin:0 auto;
+	display:flex;
+}
+/***END__results-item***/
+/***quick-item***/
+#quick-item h3{
+background-color:#00a651;
+padding-bottom:5px;
+
+}
+.list-Q{
+	padding-left: 30px;
+}
+/***END__quick-item***/
+#acadamic-c h3{
+margin-bottom:50px;
+}
+ #acadamic-c button{
+	font-size:14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color:  #fa8231;
+	border:none;
+	padding-top:1px;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-bottom: 2px;
+	margin:0 auto;
+	display: flex;
+}
+/******END--RIGHT--section*******/
+/******END--CSS for Faculties section*******/
+/**section-3***/
+/****events-section***/
+.section-03{
+	margin-top:120px;
+}
+.event-01{
+ background-image: url(../img/e.png);
+}
+.event-02{
+ background-image: url(../img/event01.png);
+}
+.event-03{
+ background-image: url(../img/e.png);
+}
+.event-04{
+ background-image: url(../img/event01.png);
+}
+.event-05{
+ background-image: url(../img/e.png);
+}
+.event-06{
+ background-image: url(../img/event01.png);
+}
+.event-07{
+ background-image: url(../img/e.png);
+}
+.event-08{
+ background-image: url(../img/event01.png);
+}
+#events-item{
+ position: relative;
+ background-size: cover;
+ background-repeat: no-repeat;
+ color:#ffff;
+ height: auto;
+}
+#events-item ul{
+ background-color:#00a651;
+ float: right;
+ list-style: none;
+
+ margin-top:5px;
+ padding:0px 20px;
+}
+#events-item ul h3{
+ margin-bottom:-10px;
+ font-size:18px;
+ line-height:30px;
+}
+#events-item ul h2{
+ font-size: 22px;
+ font-weight: 700;
+}
+.events-item-text p{
+	margin-top:70px;
+	line-height:15px;
+	font-size:12px;
+	float:left;
+	margin-bottom:3px;
+	background-color:#000;
+	opacity:.8;
+	padding:12px;
+	color:#fff;
+	font-weight: 500;
+
+
+}
+#events-item .free{
+position: absolute;
+background-color:#fa8231;
+float:left;
+color:#fff;
+padding:1px 10px;
+margin-top:5px;
+font-size:10px;
+border-radius:5px;
+text-transform: uppercase;
+font-weight: 700;
+}
+/**hover-item**/
+.hover-item{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	right:0;
+	background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .6s;
+  padding-left:20px;
+  padding-top:10px;
+  padding-right:5px;
+}
+#events-item:hover .hover-item{
+	height: 100%;
+}
+.hover-item h2{
+	font-size:40px;
+	line-height:35px;
+}
+.hover-item p{
+	font-size:16px;
+	line-height:15px;
+}
+.hover-item button{
+	font-size:14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	background-color:  #fa8231;
+	border:none;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-bottom:15px;
+}
+.hover-item button a{
+	color:#fff;
+}
+/****END--events-section***/
+/*****section-05-***/
+
+/*section-04*/
+.section-04{
+	margin-top:120px;
+}
+
+#video-01, #video-01 iframe{
+	border-radius:10px;
+	margin-bottom:30px;
+}
+/*section-04*/
+.text-05{
+	text-align: center;
+	font-family: poppins;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	font-size:65px;
+	letter-spacing:1px;
+}
+/*****teacher-section-start from there***/
+.section-05{
+margin-left:20px;
+margin-right:20px;
+padding-top: 120px;
+}
+#gallery-img{
+padding-right:0 !important;
+padding-left: 0 !important
+}
+#gallery-img img{
+	width: 100%;
+}
+/*****teacher-section-END from there***/
+/*****section-06-END***/
+.section-6{
+background-image:url(../img/back-png.png);
+padding-top:90px;
+padding-bottom:90px;
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+/*****teacher-section-start from there***/
+.img-01,.img-03{
+padding-bottom:30px;
+}
+.img-02,.img-04{
+padding-top:30px;
+}
+.teacher-section{
+padding-top:90px;
+}
+.bio-data ul{
+padding-left:25px;
+padding-right:25px;
+}
+.bio-data ul li{
+margin:0 auto;
+display: flex;
+font-size: 25px;
+border:1px solid red;
+
+}
+.bio-data ul li i{
+padding:10px;
+}
+/*****teacher-section-section-EnD from there***/
+/*****Coundown-section-start from there***/
+#coundown-section{
+background-image:url('../img/DU Redepage.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.coundown-section02{
+background-color:#000;
+opacity: .7;
+padding-top:140px;
+padding-bottom: 140px;
+}
+.block i{
+font-size:70px;
+color:#fff;
+}
+.block p{
+color:#ffff;
+font-size:40px;
+text-transform: uppercase;
+}
+/*****Coundown-section-END from there***/
+/*****slider-02-section-start from there***/
+#slider-section{
+margin-top: 50px;
+}
+#slider-chevron{
+padding-bottom: 30px;
+}
+#slider-chevron i{
+background-color:#e85e1b;
+font-size: 30px;
+padding:15px 20px;
+border-radius:40px;
+color: #fff;
+margin-left: 4px;
+}
+/*----slider-section is End from hear---*/
+/*----clander-section is start from hear---*/
+.clander-section{
+padding-top: 70px;
+padding-bottom:70px;
+}
+#clander{
+padding: 30px;
+border:1px solid red;
+text-align: center;
+}
+#clander h3{
+font-size:16px;
+font-weight:700;
+}	
+
+#clander-row-02{
+	padding-top:30px;
+}
+#clander:hover{
+background-color:#e85e1b;
+color:#FFF;
+}
+/*----clander-section is END from hear---*/
+/*----Contact-section is start from hear---*/
+.contact-section{
+ background-color:#e5f6ed;
+ padding: 20px 0;
+}
+
+/*----END-CONtact-section is start from hear---*/
+/*----footer-section is start from hear---*/
+.footer{
+background-color:#00a651;
+padding-top:60px;
+padding-bottom:30px;
+}
+/*footer-logo*/
+#footer-logo{
+margin-top:110px;
+text-align: center;
+}
+#footer-logo h2{
+color:#fff;
+font-size: 22px;
+font-weight: 700;
+line-height:20px;	
+text-transform: uppercase;
+line-height: 30px;
+padding-top: 20px;
+}
+#footer-logo h3{
+color:#fff;	
+text-transform: uppercase;
+font-size:18px
+}
+/*END-footer-logo*/
+/*it's a commone heading*/
+.footer h2{
+color: #fff;
+text-transform: uppercase;	
+}
+/*it's a commone heading*/
+/*footer-catagory-list******col-2*/
+#footer-catagory-list ul{
+list-style: none;
+padding-top:35px;
+line-height:30px;
+}
+#footer-catagory-list ul li a{
+color:#fff;
+font-size: 18px;
+}
+/*footer-catagory-list****col-2*/
+
+/*footer-catagory-list*****col-3*/
+#footer-col-3{
+text-align: right;
+float: right;
+}
+
+#footer-socia-list ul{
+list-style: none;
+padding-top:35px;
+line-height:30px;
+padding-top: 40px;
+}
+#footer-socia-list ul li a{
+	color: #fff;
+}
+.footer-social-icon{
+	padding-top:60px;
+}
+.footer-social-icon h3{
+	color: #fff;
+	font-size:20px;
+	margin-right:40px;
+}
+/*footer-social-icon*****col-3*/
+.footer-social-icon .nav{
+	float: right;
+	padding-top: 20px;
+}
+.footer-social-icon .nav li{
+border:2px solid #fff;
+margin-left:10px;
+
+}
+.footer-social-icon .nav li a i{
+padding:5px;
+color:#fff;
+text-align: center;
+font-size: 20px;
+}
+/*footer-social-icon*****col-3*/
+/*copy-write-section*/
+.copy-write h4{
+	text-align:center;
+	color:#ffff;
+	border-top:3px solid #fff;
+	padding:15px 0;
+	font-size:16px !important;
+	text-transform: uppercase;
+}
+/* END---copy-write-section*/
+/*----footer-section is start from hear---*/
